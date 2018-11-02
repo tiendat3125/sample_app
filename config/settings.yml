@@ -8,3 +8,7 @@ links:
   link6: "http://screencasts.railstutorial.org/"
   link7: "http://rubyonrails.org/"
   link8: "http://www.railstutorial.org/help"
+numbers:
+  maximum_50: 50
+  maximum_255: 255
+  minimum: 6
