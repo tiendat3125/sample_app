@@ -1,9 +1,8 @@
-<% provide(:title, "Help") %>
-<h1>Help</h1>
+<% provide :title, t(".help_header") %>
+<h1><%= t ".help_header" %></h1>
 <p>
-  Get help on the Ruby on Rails Tutorial at the
-  <a href="http://www.railstutorial.org/help">Rails Tutorial help section</a>.
-  To get help on this sample app, see the
-  <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-  book</a>.
+  <%= t ".get" %>
+  <%= link_to t(".ror_help"), Settings.links.link8 %>
+  <%= t ".to" %>
+  <%= link_to t(".base_title"), Settings.links.link5 %>
 </p>

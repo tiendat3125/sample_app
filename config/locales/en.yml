@@ -1,23 +1,54 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+  layouts:
+    footer:
+      base_title: "Ruby on Rails Tutorial"
+      michael_hartl: "Michael Hartl"
+      new: "News"
+      about: "About"
+      contact: "Contact"
+      by: "by"
+    header:
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+      sample: "sample app"
+    contact:
+      contact_pages: "contact page"
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_header: "Contact"
+  stactic_pages:
+    about:
+      base_title: "Ruby on Rails Tutorial"
+      about_header: "About"
+      the: "The"
+      is: "is a"
+      book: "book"
+      and: "and"
+      screencast_series: "screencast series"
+      to: "to teach web development with"
+      ror: "Ruby on Rails"
+      this: "This is the sample application for the tutorial."
+    home:
+      sign_up: "Sign up now!"
+      logo: "Rails logo"
+    contact:
+      contact_header: "Contact"
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+      contact1: "Contact"
+    help:
+      help_header: "Help"
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      to: "To get help on this sample app, see the"
+      ror_help: "Rails Tutorial help section"
+      base_title: "Ruby on Rails Tutorial"
+    home:
+      welcome_header: "Welcome to the Sample App"
+      this_header: "This is the home page for the"
+      ror: "Ruby on Rails Tutorial"
+      sample: "sample application."
+  users:
+    new:
+      signup: "Sign up"
+      this: "This will be a signup page for new users."
