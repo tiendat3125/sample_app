@@ -52,3 +52,11 @@ vi:
     new:
       signup: "Đăng ký"
       this: "Đây sẽ là trang đăng ký cho người dùng mới."
+      create_my_account: "Tạo tài khoản của tôi"
+  shared:
+    error:
+      err: "lỗi"
+      the_form_contains: "Biểu mẫu có chứa"
+  concerns:
+    users:
+      Welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"    

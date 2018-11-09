@@ -12,7 +12,12 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      log_out: "Log out"
       sample: "sample app"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
     contact:
       contact_pages: "contact page"
       contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -52,3 +57,19 @@ en:
     new:
       signup: "Sign up"
       this: "This will be a signup page for new users."
+      create_my_account: "Create my account"
+  sessions:
+    new:
+      log_in: "Log in"
+      sign_up_now: "Sign up now!"
+      new_user: "New user"
+  shared:
+    error:
+      err: "error"
+      the_form_contains: "The form contains"
+  concerns:
+    users:
+      Welcome: "Welcome to the Sample App!"
+      fail: "Fail"
+    sessions:
+      invalid: "Invalid email/password combination"
