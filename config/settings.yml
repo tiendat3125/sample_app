@@ -11,4 +11,5 @@ links:
 numbers:
   maximum_50: 50
   maximum_255: 255
-  minimum: 6
+  minimum_6: 6
+  size_80: 80
